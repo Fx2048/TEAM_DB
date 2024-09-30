@@ -1,3 +1,5 @@
+import streamlit
+
 import csv
 import pygame
 from pygame.locals import *
