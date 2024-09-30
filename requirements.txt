@@ -1,14 +1,3 @@
 pygame
-
-
-
-math
-random
-sys
-os
-datetime
 requests
-io
-urllib
-urlopen
 streamlit
