@@ -9,6 +9,6 @@ os
 datetime
 requests
 io
-urllib.request
+urllib
 urlopen
 streamlit
