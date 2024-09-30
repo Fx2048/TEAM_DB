@@ -1,6 +1,6 @@
 pygame
 
-pygame.locals
+
 time
 math
 random
