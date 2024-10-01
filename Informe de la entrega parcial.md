@@ -1,1 +1,1 @@
-# Informe de la entrega parcial: Jugemos con Pokemones 
+# Informe de la entrega parcial: Juguemos con Pokemones 
