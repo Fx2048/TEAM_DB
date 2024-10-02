@@ -85,6 +85,8 @@ Cuando el Pokémon es atacado, su PH se reduce según la potencia del ataque, do
 | Reducción de PH | 
 |-----------------|
 |![image](https://github.com/user-attachments/assets/b19e14b6-788b-431d-b6cb-b5bb3de68732)|
+![image](https://github.com/user-attachments/assets/66b4ca59-803e-4348-9b81-1f2cbf26b8ff)
+
 
 ## 4.- Fin de la partida
 
