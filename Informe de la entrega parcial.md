@@ -45,9 +45,9 @@ Al incio de la partida, el jgador tendrá la opción de seleccionar su Pokémon 
 Una vez de haber seleccionado nuestro Pokémon, el juego automáticamente elige un oponente al azar de una base de datos de Pokémon, asegurando que cada partida sea única, asimismo, el oponente tiene sus propios puntos de vida y ataques.
 </p>
 
-![image](https://github.com/user-attachments/assets/7d1f97b7-a501-4d27-8245-022b5840c3a4)
-![image](https://github.com/user-attachments/assets/ee35b4d9-4ba2-4d3e-a111-05ecb3283e51)
-
+| Pokémon elegir | Oponente|
+|----------------|----------|
+|![image](https://github.com/user-attachments/assets/7d1f97b7-a501-4d27-8245-022b5840c3a4) | ![image](https://github.com/user-attachments/assets/ee35b4d9-4ba2-4d3e-a111-05ecb3283e51)|
 
 ## 2.- Mecánica de Batalla
 
@@ -66,9 +66,9 @@ Cada Pokémon tiene varias opciones de ataque, donde cada una cuenta con diferen
 El jugador tiene 3 pociones disponibles que pueden usarse para recuperar una cantidad fija de vida, por ende, usar una poción es una acción que se realiza ando esta en su turno, por lo que el jugador debe decidir cuándo es más estratégico utilizarlo.
 </p>
 
-![image](https://github.com/user-attachments/assets/5d8cabe5-be01-430b-8468-86e9a87348e2)
-![image](https://github.com/user-attachments/assets/b6c777d3-0046-431a-9333-da310c666126)
-![image](https://github.com/user-attachments/assets/e3cf5577-8193-4ad2-b36a-89e8a68f33a7)
+| Turnos            | Ataques       |    Posion        |
+|---------------|-------------|-----------|
+|  ![image](https://github.com/user-attachments/assets/5d8cabe5-be01-430b-8468-86e9a87348e2) |   ![image](https://github.com/user-attachments/assets/b6c777d3-0046-431a-9333-da310c666126) |   ![image](https://github.com/user-attachments/assets/e3cf5577-8193-4ad2-b36a-89e8a68f33a7) |
 
 ## 3.- Sistema de Puntos de Vida (HP)
 
@@ -81,6 +81,7 @@ Tanto el Pokémon del jugador como del oponente comienzan con un número determi
 <p align="justify">
 Cuando el Pokémon es atacado, su PH se reduce según la potencia del ataque, donde si el ataque es efectivo (por ejemplo, si el tipo del ataque tiene ventaja sobre el otro tipo del Pokémon), el daño resulta ser mayor favoreciendo al oponente o al usuario mismo.
 </p>
+
 
 ![image](https://github.com/user-attachments/assets/b19e14b6-788b-431d-b6cb-b5bb3de68732)
 ![image](https://github.com/user-attachments/assets/1944b28c-d356-4472-bb9c-db3a2e7e7f97)
