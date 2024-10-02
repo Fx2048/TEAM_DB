@@ -107,6 +107,9 @@ Al finalizar la batalla, se puede mostrar una pantalla, donde al jugador se le d
 La interfaz del juego muestra la selección del Pokémon, los PH actuales de ambos Pokémon, las opciones de ataque y el estado de las pociones restantes, además, utiliza imágenes coloridas para representar tanto a los Pokémon, como el fondo donde se da la batalla hasta que esta termine.
 </p>
 
+![image](https://github.com/user-attachments/assets/20bc9af7-26c2-4355-8e20-b4298f612fd8)
+![image](https://github.com/user-attachments/assets/13b7b1ce-2f49-484f-a26d-e50ccfd282ce)
+
 ### Efecto de sonido:
 <p align="justify">
 Para iniciar la partida se le coloca un sonido para que el juego resulte ser atrativo durante toda la partida, para asi mejorar la experiencia del jugador.
