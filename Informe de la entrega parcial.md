@@ -154,17 +154,25 @@ https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 Como se puede evidenciar todo el avance que se logro hasta este momento es la creación de la interfaz de la segunda ventana, que nos muestra el juego en sí, pero eso no indica que este completamente terminado, dado que la interfaz de los botones se encuentran en la misma ventana, lo cual necesita corregir y esta en proceso continuo de actualización, asimismo, una de las partes que se logro avanzar fue relacionado con las tablas correspondientes a la base de datos de acuerdo al videojuego, ya que es ahi donde se tiene informacion sobre las llaves primarias y foráneas dentro del juego que se muestra a continuación:
 </p>
 
+<div align="center">
+  
 |Diagrama de la base de datos de JUEGOPOKE| Tablas de la base de datos|
 |-----------------------------------------|--------------------------------|
 |![diagrama](https://github.com/user-attachments/assets/5cf0c931-225c-4920-b902-70e01597d33e)|  ![Imagen de WhatsApp 2024-09-29 a las 22 14 37_1f5e7f98](https://github.com/user-attachments/assets/9d5ac1f1-fbe2-4db1-af0f-a70c52ba8939)|
+
+</div>
 
 <p align="justify">
 Este diagrama muestra la base de datos que mantiene información sobre las habilidades de los Pokémon y sus traducciones en diferentes idiomas si es necesario. La tabla "habilidades" almacena todas las habilidades, junto con su nombre, generación y si pertenece a la serie principal. Los nombres de las habilidades se guardan en el archivo "habilidad_nombres", mientras que los efectos detallados se guardan en el archivo "habilidad_efectos". Los cambios en los efectos se registran en la sección "capacidad_efecto_cambios", que están conectados a los grupos de versiones de "version_groups". En "flavor_text_entries" se almacenan descripciones adicionales, así como versiones durante el juego solo si es necesario. Cada Pokémon tiene información básica guardada en la tabla "pokemon", mientras que "pokemon_abilities" asocia a los Pokémon con sus habilidades, indicando si hay una habilidad oculta. Además, se agregó un historial para guardar los resultados después de haber realizado una partida, donde se guardará información sobre los resultados finales como victoria o derrota, incluyedo información necesaria y relevante de acuerdo a la partida, tales como la fecha y hora donde se dio o inicio el juego. Finalmente, la tabla "users gestiona los datos de los usuarios del sistema, que pasa a estar relacionada con el diagrama multijugador. Esta estructura nos permite una gestión multigeneracional de las habilidades y sus efectos en los Pokémon.
 </p>
 
+<div align="center">
+  
 |Diagrama para el usuario multijugador|
 |------------------------|
-|![Imagen de WhatsApp 2024-09-28 a las 13 21 12_ead03f59](https://github.com/user-attachments/assets/4ca4c15f-e838-4f03-bec0-e4446d94c3b8)|
+|<img src="https://github.com/user-attachments/assets/4ca4c15f-e838-4f03-bec0-e4446d94c3b8" alt="ESP32 DEVKIT V1" width="800"/>|
+
+</div>
 
 <p align="justify">
 Este diagrama muestra la estructura de la base de datos diseñado para gestionar partidas que se den de manera multijugador, donde cada tabla tiene una función específica para cumplir ese rol. La tabla GAMES gestiona toda la información sobre las partidas que se vayan a dar, incluyendo el estado del juego, el turno actual y la fecha de inicio, mientras que USERS guarda los datos de los jugadores, como el nombre de usuario, correo electrónico y contraseña, asimismo, GAME_PLAYERS pasa a ser una tabla intermedia que conecta a los jugadores con los juegos, permitiendo saber qué jugadores están participando y en qué partida, además de almacenar el estado del jugador en la partida (como "activo" o "eliminado"). La tabla ACTION registra las acciones que los jugadores realizan durante el juego, como moverse o atacar, junto con la marca de tiempo que indica cuándo ocurrieron. Finalmente, VOTES gestiona los votos que los jugadores emiten durante una partida, guardando la decisión de cada jugador (como "sí" o "no") y el momento en que se emitió el voto. Las relaciones entre estas tablas permiten un control detallado sobre los juegos, los jugadores, las acciones realizadas y las decisiones tomadas, asegurando una correcta gestión de las partidas multijugador.
@@ -177,18 +185,26 @@ Este diagrama muestra la estructura de la base de datos diseñado para gestionar
 Una de las primeras dificultades que hemos presentado es acerca del tiempo que la base de datos se encuentra, dado que siempre después de 48 horas se elimina automáticamente y tenemos que volver a crear uno nuevo, y nuevamente generar las tablas correspondientes a la base de datos, por ello, cabe mencionar que en el diagrama mostrado en este informe no se evidencia la tabla correspondiente al historial para las partidas y eso se debe a que en la base de datos donde se creó este se eliminó, y al no tomar las medidas pertinentes como guardar los datos se perdió, pero obviamente, eso no es excusa alguna para no tratar de solucionar ése problema y vamos en busca de ello. Adicional a ello hemos presentado dificultades en poder conectar el juego realizado en python con la base de datos, más que todo por el codigo del videojuego que no lo tenemos al 100%.
 </p>
 
+<div align="center">
+  
 |Mensaje después de 48 horas|
 |---------------------------|
-|![image](https://github.com/user-attachments/assets/e3261bbf-964f-47a5-bb2c-35b642368534)|
-|![Captura de pantalla 2024-09-30 072918](https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246)|
+|<img src="https://github.com/user-attachments/assets/e3261bbf-964f-47a5-bb2c-35b642368534" alt="ESP32 DEVKIT V1" width="500"/>|
+|<img src="https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246" alt="ESP32 DEVKIT V1" width="500"/>|
+
+</div>
 
 ### Problemas en diseñar a primera ventana:
 <p align="justify">
 Otras de las dificultades que hemos presentado en la elaboración de nuestro videojuego es la creación de la primera ventana, que contiene los botones personalizados y la información correspondiente a las votaciones realizadas por el usuario, ya que como se puede visualizar no lo reconoce y presenta un error en ambas ventanas, donde todo está completamente en rojo, y casi parecido con la segunda ventana, a pesar de haber incluido diferentes formas de código, siempre tenemos el problema de que no se puede tener ambas ventanas de manera simultanea, donde vamos viendo como resolverlo, aunque hemos tenido un pequeño avance, que aún presenta problemas, en reconocer los botones y actuar con ellos, durante la partida.
 </p>
 
+<div align="center">
+  
 |Problems en crear la ventana 1| Avance|
 |------------------------------|---------|
-![Imagen de WhatsApp 2024-09-30 a las 09 02 22_1ade060c](https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2)|   |
+!<img src="https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2" alt="ESP32 DEVKIT V1" width="500"/>|   |
+
+</div>
 
 que hizo para solucionarlo
