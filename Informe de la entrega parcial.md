@@ -148,7 +148,7 @@ Para iniciar la partida se le coloca un sonido para que el juego resulte ser atr
 
 https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 
-[Código del videojuego en Python](URL_del_enlace)
+[Código del videojuego en Python](https://github.com/Fx2048/TEAM_DB/blob/82ecffe17f555a120992f4a40a9e398c76627ee4/juegopoke.py)
 
 ## Avance
 
@@ -168,13 +168,15 @@ Como se puede evidenciar todo el avance que se logro hasta este momento es la cr
 Este diagrama muestra la base de datos que mantiene información sobre las habilidades de los Pokémon y sus traducciones en diferentes idiomas si es necesario. La tabla "habilidades" almacena todas las habilidades, junto con su nombre, generación y si pertenece a la serie principal. Los nombres de las habilidades se guardan en el archivo "habilidad_nombres", mientras que los efectos detallados se guardan en el archivo "habilidad_efectos". Los cambios en los efectos se registran en la sección "capacidad_efecto_cambios", que están conectados a los grupos de versiones de "version_groups". En "flavor_text_entries" se almacenan descripciones adicionales, así como versiones durante el juego solo si es necesario. Cada Pokémon tiene información básica guardada en la tabla "pokemon", mientras que "pokemon_abilities" asocia a los Pokémon con sus habilidades, indicando si hay una habilidad oculta. Además, se agregó un historial para guardar los resultados después de haber realizado una partida, donde se guardará información sobre los resultados finales como victoria o derrota, incluyedo información necesaria y relevante de acuerdo a la partida, tales como la fecha y hora donde se dio o inicio el juego. Finalmente, la tabla "users gestiona los datos de los usuarios del sistema, que pasa a estar relacionada con el diagrama multijugador. Esta estructura nos permite una gestión multigeneracional de las habilidades y sus efectos en los Pokémon.
 </p>
 
+[Código para la creación de tablas en SQL](https://github.com/Fx2048/TEAM_DB/blob/82ecffe17f555a120992f4a40a9e398c76627ee4/bdpokemon.sql)
+
+
 <div align="center">
   
 |Diagrama para el usuario multijugador|
 |------------------------|
 |<img src="https://github.com/user-attachments/assets/4ca4c15f-e838-4f03-bec0-e4446d94c3b8" alt="ESP32 DEVKIT V1" width="800"/>|
 
-[Código para la creación de tablas en SQL](URL_del_enlace)
 
 </div>
 
