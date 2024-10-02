@@ -203,7 +203,7 @@ Otras de las dificultades que hemos presentado en la elaboración de nuestro vid
   
 |Problems en crear la ventana 1| Avance|
 |------------------------------|---------|
-!<img src="https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2" alt="ESP32 DEVKIT V1" width="500"/>|   |
+|<img src="https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2" alt="ESP32 DEVKIT V1" width="500"/>| <img src="https://github.com/user-attachments/assets/778a842a-fe43-49ca-9908-133090299bbc" alt="ESP32 DEVKIT V1" width="500"/>  |
 
 </div>
 
