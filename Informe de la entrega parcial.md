@@ -226,5 +226,6 @@ import pygame
 pygame.init()
 ```
 # Conclusión
-
-Podemos comcl
+<p align="justify">
+Podemos concluir que nos encontramos muy lejos de decir que ya hemos culminado el trabajo, ya que presentamos problemas donde deberían ser menos, y para ello necesitamos encontrar más soluciones de lo que hemos utilizado hasta el momento y asi poder agregar todo lo que nos hace falta para culminar el trabajo, y presentarlo de la mejor manera posible, pero de eso se trata conocer lo que es la prueba y el error, ya que de acuerdo a ello iremos mejorando en próximas instancias y saber como actuar en este tipo de situaciones.
+</p>
