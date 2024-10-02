@@ -148,7 +148,12 @@ Para iniciar la partida se le coloca un sonido para que el juego resulte ser atr
 
 https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 
-que se ha avanzado
+## Avance
+
+<p align="justify">
+Como se puede evidenciar todo el avance que se logro hasta este momento es la creación de la interfaz de la segunda ventana, que nos muestra el juego en sí, pero eso no indica que este completamente terminado, dado que la interfaz de los botones se encuentran en la misma ventana, lo cual necesita corregir y esta en proceso continuo de actualización, asimismo, una de las partes que se logro avanzar fue relacionado con las tablas correspondientes a la base de datos de acuerdo al videojuego, ya que es ahi donde se tiene informacion sobre las llaves primarias y foráneas dentro del juego que se muestra a continuación:
+</p>
+
 en que tuvo dificultades
 
 que hizo para solucionarlo
