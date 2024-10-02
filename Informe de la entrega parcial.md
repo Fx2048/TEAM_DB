@@ -207,4 +207,18 @@ Otras de las dificultades que hemos presentado en la elaboración de nuestro vid
 
 </div>
 
-que hizo para solucionarlo
+<p align="justify">
+Para poder solucionar el problema en la creación de la ventana 1, se trato de utilizar un programa para ejecutar varias ventanas desde el mismo procesador usando un "Multiprocesamiento Intermediate Showcase", donde habia un script que nos permitiría mostrar varias ventanas simultáneamente con una sincronización adecuada utilizando multiprocesamiento, juntamente con pygame, pero el problema surgio al momento de la implementación del código, de por si producía ambas ventanas al mismo tiempo, pero este no reconocia las imagenes que se les colocaba, asi que básicamente lo único que mostraba era un fondo negro, ya que lo primero que se buscaba era estar seguros de que normal pudiera reconocer las imágenes y de ahí poder emplearlo con el videojuego, pero a pesar de ello no hubo avance alguno, y aún asi estamos en la busqueda de nuevas soluciones que nos ayuden para poder conectar ambas ventanas, o en todo caso perfeccionar el script con el multiprocesamiento.
+</p>
+
+```
+import os
+import sys
+from multiprocessing import Lock, Pipe, Process
+from multiprocessing.connection import Connection
+from random import randint
+
+import pygame
+
+pygame.init()
+```
