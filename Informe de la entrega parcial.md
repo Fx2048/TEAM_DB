@@ -154,6 +154,15 @@ https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 Como se puede evidenciar todo el avance que se logro hasta este momento es la creación de la interfaz de la segunda ventana, que nos muestra el juego en sí, pero eso no indica que este completamente terminado, dado que la interfaz de los botones se encuentran en la misma ventana, lo cual necesita corregir y esta en proceso continuo de actualización, asimismo, una de las partes que se logro avanzar fue relacionado con las tablas correspondientes a la base de datos de acuerdo al videojuego, ya que es ahi donde se tiene informacion sobre las llaves primarias y foráneas dentro del juego que se muestra a continuación:
 </p>
 
+![diagrama](https://github.com/user-attachments/assets/5cf0c931-225c-4920-b902-70e01597d33e)
+![Imagen de WhatsApp 2024-09-28 a las 13 21 12_ead03f59](https://github.com/user-attachments/assets/4ca4c15f-e838-4f03-bec0-e4446d94c3b8)
+
+![Imagen de WhatsApp 2024-09-29 a las 22 14 37_1f5e7f98](https://github.com/user-attachments/assets/9d5ac1f1-fbe2-4db1-af0f-a70c52ba8939)
+
 en que tuvo dificultades
 
-que hizo para solucionarlo
+![image](https://github.com/user-attachments/assets/e3261bbf-964f-47a5-bb2c-35b642368534)
+![Imagen de WhatsApp 2024-09-30 a las 09 02 22_1ade060c](https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2)
+
+que hizo pa![Captura de pantalla 2024-09-30 072918](https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246)
+ra solucionarlo
