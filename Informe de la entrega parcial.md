@@ -193,6 +193,9 @@ Una de las primeras dificultades que hemos presentado es acerca del tiempo que l
 |<img src="https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246" alt="ESP32 DEVKIT V1" width="500"/>|
 
 </div>
+<p align="justify">
+Para solucionar esta dificultad no hemos encontrado algo que nos ayude a mantener los datos, dado que el problema surge por condiciones que nos ofrece el plan gratuito de railway, lo cual una de las cosas que estariamos por emplear es la opción de migrar a un nuevo plan de pago, dado que eso seria más estable si queremos que nuestra base de datos esté siempre activa o otro caso seria monitorear y reiniciar automáticamente la base de datos, donde detecte si la base de datos está inactiva o cerrada, y que la reinicie automáticamente, lo cual no seria tan factible por el hecho de que requeriría de un script en un servidor que monitoree la conexión a la base de datos cada cierto tiempo, y ver si asi no podemos perder todos los datos que se pueden llegar a recolectar. 
+</p>
 
 ### Problemas en diseñar a primera ventana:
 <p align="justify">
@@ -222,3 +225,6 @@ import pygame
 
 pygame.init()
 ```
+# Conclusión
+
+Podemos comcl
