@@ -115,17 +115,7 @@ La interfaz del juego muestra la selección del Pokémon, los PH actuales de amb
 Para iniciar la partida se le coloca un sonido para que el juego resulte ser atrativo durante toda la partida, para asi mejorar la experiencia del jugador.
 </p>
 
-## 6.- Futuras Expansiones
-
-### Más Pokemon  y ataques: 
-<p align="justify">
-Seria muy bueno que se pueda agregar mas Pokémon, ataques y efectos para enriquecer la jugailidad del usuario.
-</p>
-
-### Modos de Juego Adicionales:
-<p align="justify">
-También se podrían implementar modos de juego alterntivos, como batallas en equipo o torneos entre varios jugadores.
-</p>
+https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 
 que se ha avanzado
 en que tuvo dificultades
