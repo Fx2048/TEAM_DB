@@ -82,11 +82,9 @@ Tanto el Pokémon del jugador como del oponente comienzan con un número determi
 Cuando el Pokémon es atacado, su PH se reduce según la potencia del ataque, donde si el ataque es efectivo (por ejemplo, si el tipo del ataque tiene ventaja sobre el otro tipo del Pokémon), el daño resulta ser mayor favoreciendo al oponente o al usuario mismo.
 </p>
 
-| Reducción de PH | 
-|-----------------|
-|![image](https://github.com/user-attachments/assets/b19e14b6-788b-431d-b6cb-b5bb3de68732)|
-![image](https://github.com/user-attachments/assets/66b4ca59-803e-4348-9b81-1f2cbf26b8ff)
-
+| Vida inicial| Reducción de PH | 
+|-----------------|--------------|
+|![image](https://github.com/user-attachments/assets/66b4ca59-803e-4348-9b81-1f2cbf26b8ff)|![image](https://github.com/user-attachments/assets/b19e14b6-788b-431d-b6cb-b5bb3de68732)|
 
 ## 4.- Fin de la partida
 
