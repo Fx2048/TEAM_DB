@@ -148,6 +148,8 @@ Para iniciar la partida se le coloca un sonido para que el juego resulte ser atr
 
 https://github.com/user-attachments/assets/42dcc2c9-5fcf-4811-afdb-a6d9f75639bd
 
+[Código del videojuego en Python](URL_del_enlace)
+
 ## Avance
 
 <p align="justify">
@@ -172,11 +174,15 @@ Este diagrama muestra la base de datos que mantiene información sobre las habil
 |------------------------|
 |<img src="https://github.com/user-attachments/assets/4ca4c15f-e838-4f03-bec0-e4446d94c3b8" alt="ESP32 DEVKIT V1" width="800"/>|
 
+[Código para la creación de tablas en SQL](URL_del_enlace)
+
 </div>
 
 <p align="justify">
 Este diagrama muestra la estructura de la base de datos diseñado para gestionar partidas que se den de manera multijugador, donde cada tabla tiene una función específica para cumplir ese rol. La tabla GAMES gestiona toda la información sobre las partidas que se vayan a dar, incluyendo el estado del juego, el turno actual y la fecha de inicio, mientras que USERS guarda los datos de los jugadores, como el nombre de usuario, correo electrónico y contraseña, asimismo, GAME_PLAYERS pasa a ser una tabla intermedia que conecta a los jugadores con los juegos, permitiendo saber qué jugadores están participando y en qué partida, además de almacenar el estado del jugador en la partida (como "activo" o "eliminado"). La tabla ACTION registra las acciones que los jugadores realizan durante el juego, como moverse o atacar, junto con la marca de tiempo que indica cuándo ocurrieron. Finalmente, VOTES gestiona los votos que los jugadores emiten durante una partida, guardando la decisión de cada jugador (como "sí" o "no") y el momento en que se emitió el voto. Las relaciones entre estas tablas permiten un control detallado sobre los juegos, los jugadores, las acciones realizadas y las decisiones tomadas, asegurando una correcta gestión de las partidas multijugador.
 </p>
+
+[Código para las votaciones en SQL ](URL_del_enlace)
 
 ## Dificultades
 
@@ -227,5 +233,5 @@ pygame.init()
 ```
 # Conclusión
 <p align="justify">
-Podemos concluir que nos encontramos muy lejos de decir que ya hemos culminado el trabajo, ya que presentamos problemas donde deberían ser menos, y para ello necesitamos encontrar más soluciones de lo que hemos utilizado hasta el momento y asi poder agregar todo lo que nos hace falta para culminar el trabajo, y presentarlo de la mejor manera posible, pero de eso se trata conocer lo que es la prueba y el error, ya que de acuerdo a ello iremos mejorando en próximas instancias y saber como actuar en este tipo de situaciones.
+Podemos concluir que nos encontramos muy lejos de decir que ya hemos culminado el trabajo, ya que presentamos problemas donde deberían ser menos, y para ello necesitamos encontrar más soluciones de lo que hemos utilizado hasta el momento y asi poder agregar todo lo que nos hace falta para culminar el trabajo, y presentarlo de la mejor manera posible, pero de eso se trata conocer lo que es la prueba y el error, ya que de acuerdo a ello iremos mejorando en próximas instancias y saber como actuar en este tipo de situaciones, ya que mientras no tengamos realizado la ventana 1 no podremos pasar al tema de votaciones por parte del usuarios y poder continuar con el juego, asimismo, poder conectarlo con la base de datos para que haga la recolección de acuerdo a las partidas.
 </p>
