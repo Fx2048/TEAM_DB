@@ -184,7 +184,7 @@ Este diagrama muestra la base de datos que mantiene información sobre las habil
 Este diagrama muestra la estructura de la base de datos diseñado para gestionar partidas que se den de manera multijugador, donde cada tabla tiene una función específica para cumplir ese rol. La tabla GAMES gestiona toda la información sobre las partidas que se vayan a dar, incluyendo el estado del juego, el turno actual y la fecha de inicio, mientras que USERS guarda los datos de los jugadores, como el nombre de usuario, correo electrónico y contraseña, asimismo, GAME_PLAYERS pasa a ser una tabla intermedia que conecta a los jugadores con los juegos, permitiendo saber qué jugadores están participando y en qué partida, además de almacenar el estado del jugador en la partida (como "activo" o "eliminado"). La tabla ACTION registra las acciones que los jugadores realizan durante el juego, como moverse o atacar, junto con la marca de tiempo que indica cuándo ocurrieron. Finalmente, VOTES gestiona los votos que los jugadores emiten durante una partida, guardando la decisión de cada jugador (como "sí" o "no") y el momento en que se emitió el voto. Las relaciones entre estas tablas permiten un control detallado sobre los juegos, los jugadores, las acciones realizadas y las decisiones tomadas, asegurando una correcta gestión de las partidas multijugador.
 </p>
 
-[Código para las votaciones en SQL ](URL_del_enlace)
+[Código para las votaciones en SQL ](https://github.com/Fx2048/TEAM_DB/blob/c8feb8190338e940808b809816576fb311c1d6ae/bd_votaciones.sql)
 
 ## Dificultades
 
