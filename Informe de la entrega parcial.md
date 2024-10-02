@@ -172,8 +172,23 @@ Este diagrama muestra la estructura de la base de datos diseñado para gestionar
 
 ## Dificultades
 
-![image](https://github.com/user-attachments/assets/e3261bbf-964f-47a5-bb2c-35b642368534)
-![Imagen de WhatsApp 2024-09-30 a las 09 02 22_1ade060c](https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2)
+### Perdida de datos en la base de datos:
+<p align="justify">
+Una de las primeras dificultades que hemos presentado es acerca del tiempo que la base de datos se encuentra, dado que siempre después de 48 horas se elimina automáticamente y tenemos que volver a crear uno nuevo, y nuevamente generar las tablas correspondientes a la base de datos, por ello, cabe mencionar que en el diagrama mostrado en este informe no se evidencia la tabla correspondiente al historial para las partidas y eso se debe a que en la base de datos donde se creó este se eliminó, y al no tomar las medidas pertinentes como guardar los datos se perdió, pero obviamente, eso no es excusa alguna para no tratar de solucionar ése problema y vamos en busca de ello. Adicional a ello hemos presentado dificultades en poder conectar el juego realizado en python con la base de datos, más que todo por el codigo del videojuego que no lo tenemos al 100%.
+</p>
 
-que hizo pa![Captura de pantalla 2024-09-30 072918](https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246)
-ra solucionarlo
+|Mensaje después de 48 horas|
+|---------------------------|
+|![image](https://github.com/user-attachments/assets/e3261bbf-964f-47a5-bb2c-35b642368534)|
+|![Captura de pantalla 2024-09-30 072918](https://github.com/user-attachments/assets/15e018f7-b96b-401f-942f-03d4a63cc246)|
+
+### Problemas en diseñar a primera ventana:
+<p align="justify">
+Otras de las dificultades que hemos presentado en la elaboración de nuestro videojuego es la creación de la primera ventana, que contiene los botones personalizados y la información correspondiente a las votaciones realizadas por el usuario, ya que como se puede visualizar no lo reconoce y presenta un error en ambas ventanas, donde todo está completamente en rojo, y casi parecido con la segunda ventana, a pesar de haber incluido diferentes formas de código, siempre tenemos el problema de que no se puede tener ambas ventanas de manera simultanea, donde vamos viendo como resolverlo, aunque hemos tenido un pequeño avance, que aún presenta problemas, en reconocer los botones y actuar con ellos, durante la partida.
+</p>
+
+|Problems en crear la ventana 1| Avance|
+|------------------------------|---------|
+![Imagen de WhatsApp 2024-09-30 a las 09 02 22_1ade060c](https://github.com/user-attachments/assets/7014ac29-3b73-4863-b164-b2a00bdc8ba2)|   |
+
+que hizo para solucionarlo
