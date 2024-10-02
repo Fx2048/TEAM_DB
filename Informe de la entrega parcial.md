@@ -55,15 +55,25 @@ Cada Pokémon tiene varias opciones de ataque, donde cada una cuenta con diferen
 
 El jugador tiene 3 pociones disponibles que pueden usarse para recuperar una cantidad fija de vida, por ende, usar una poción es una acción que se realiza ando esta en su turno, por lo que el jugador debe decidir cuándo es más estratégico utilizarlo.
 
-## 3.- Sistema de Puntos de Vida (PV)
+## 3.- Sistema de Puntos de Vida (HP)
 
 ### Salud Inicial:
 
-Tanto el Pokémon del jugador como del oponente comienzan con un número determinado de puntos de vida (PV), donde la partida termina cuando uno de los Pokemones llega a cero puntos de vida.
+Tanto el Pokémon del jugador como del oponente comienzan con un número determinado de puntos de vida (PH), donde la partida termina cuando uno de los Pokemones llega a cero puntos de vida.
 
-### Reducción de PV:
+### Reducción de PH:
 
-Cuando el Pokémon es atacado, su PV se reduce según la potencia del ataque, 
+Cuando el Pokémon es atacado, su PH se reduce según la potencia del ataque, donde si el ataque es efectivo (por ejemplo, si el tipo del ataque tiene ventaja sobre el otro tipo del Pokémon), el daño resulta ser mayor favoreciendo al oponente o al usuario mismo.
+
+## 4.- Fin de la partida
+
+### Condiciones de ganr o perder:
+
+La partida culmina cuando uno de los dos pokemones pierde todos sus puntos de vida, donde si el Pokémon del jugador derrota al oponente, esté se declara ganador; de lo contrario, si el Pokémon del jugador se queda sin vida, el jugador pierdey termina la partida.
+
+### Resultados y resultados:
+
+Al finalizar la batalla, se puede mostrar una pantalla, donde al jugador se le declara como ganador o perdedor, para luego preguntar si quiere volver a iniciar la partida o no, asimismo, las estadísticas como los ataques realizados por los competidore y este se guardará en el historial de partida en la base de datos creada.
 
 
 que se ha avanzado
